@@ -15,7 +15,7 @@ This project focuses on forecasting day-ahead wind power production in Greece wi
 
 ## 🏗️ High-Level System Architecture
 Figure 1: End-to-end data pipeline from ENTSO-E/Open-Meteo ingestion to LightGBM inference.
-![Flow Chart](images/dashboard-main.png)
+![Flow Chart](Flow_Chart.png)
 
 ## 📊 Model Performance & Metrics (February 2026)
 
@@ -23,17 +23,17 @@ Figure 1: End-to-end data pipeline from ENTSO-E/Open-Meteo ingestion to LightGBM
 
     Installed Capacity: 6,000 MW
 
-    Total Actual Production: 1,013,477 MWh
+    Total Actual Production: 2,567,636 MW·h
 
-    Total Forecasted Production: 1,121,584 MWh
+    Total Forecasted Production: 2,520,607 MW·h MWh
 
     Model Accuracy: R² = 0.85
 
 Error Metrics:
 
-    MAE: ≈ 185 MW
+    MAE: ≈ 322 MW
 
-    RMSE: ≈ 240 MW
+    RMSE: ≈ 406 MW
 
 The model is fine-tuned to handle the inherent stochastic nature of wind energy in Greek geography, with a strong focus on capturing ramp-up and ramp-down events to minimize balancing costs.
 ## 🛠️ Tech Stack
