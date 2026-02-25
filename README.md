@@ -2,7 +2,7 @@
 
 **Day-ahead Wind Power Forecasting System for the Greek Electricity Market** Advanced machine learning solution delivering accurate hourly wind generation forecasts using **Open-Meteo NWP** and **ENTSO-E** data.
 
-![Wind Forecast Dashboard](images/Wind_Model.png)
+![Wind Forecast Dashboard](Wind_Model.png)
 
 ## 📌 Project Overview
 This project focuses on forecasting day-ahead wind power production in Greece with high volatility management. The system provides reliable 24-hour ahead predictions and real-time actual vs. forecast comparison for operational decision support in the Greek power market.
